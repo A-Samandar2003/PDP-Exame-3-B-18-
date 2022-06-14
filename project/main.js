@@ -85,7 +85,7 @@ function start() {
         if (m == 0 && s == 0) {
             clearInterval(timer);
         }
-    }, 10);
+    }, 1000);
 }
 
 
