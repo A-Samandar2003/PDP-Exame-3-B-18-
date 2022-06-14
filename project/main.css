@@ -1,0 +1,135 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Lobster';
+ }
+
+ button {
+   cursor: pointer;
+ }
+
+ body {
+   width: 100%;
+   height: 100vh;
+   display: grid;
+   place-items: center;
+   background: #E5E5E5;
+ }
+
+ h1 {
+   font-family: 'Lobster';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 40px;
+   color: #C44747;
+ }
+
+ .container {
+   padding: 2rem;
+   width: 1200px;
+   height: min-content;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .title {
+   margin-bottom: .5rem;
+ }
+
+ .title h1 {
+   font-size: 44px;
+   color: #C44747;
+
+ }
+
+ .btn-group .btn-select-1 {
+   font-family: 'Lobster';
+   font-style: normal;
+   font-size: 22px;
+   text-align: center;
+   border: none;
+   margin: 40px;
+   color: #F85959;
+   background: transparent;
+   width: 130px;
+   height: 40px;
+   padding: 0 10px;
+ }
+
+ .active {
+   width: 120px;
+   height: 40px;
+   background: #E93C3C !important;
+   border-radius: 25px;
+   color: #FFF8EE !important;
+ }
+
+
+ .pomodoro-zone {
+   margin: 0 auto;
+   display: grid;
+   place-items: center;
+   width: 450px;
+   height: 400px;
+ }
+
+ pomodoro-zone::selection{
+  cursor: pointer;
+ }
+ 
+ .pomodoro-circle {
+   display: grid;
+   place-items: center;
+   width: 350px;
+   height: 350px;
+   border-radius: 50%;
+   position: relative;
+ }
+
+ .pomodoro-circle h2 {
+   font-family: 'Lobster';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 70px;
+   line-height: 40px;
+   Color: #C44747;
+ }
+
+ .control-zone {
+   padding-top: 2rem;
+   display: flex;
+   margin: 0 auto;
+   gap: 54px;
+ }
+
+ .hide {
+   display: none !important;
+ }
+
+ .control-zone button {
+   width: 140px;
+   height: 45px;
+   background: #F85959;
+   border-radius: 25px;
+   font-family: 'Lobster';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 28px;
+   line-height: 30px;
+   text-align: center;
+   border: none;
+   color: #FFF8EE;
+ }
+
+
+ .circle {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   border: 15px solid #F85959;
+   border-radius: 50%;
+   box-shadow: 0px 4px 10px 10px rgba(41, 42, 43, 0.2) inset;
+ }
